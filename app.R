@@ -5,7 +5,8 @@
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
-#
+# This app is meant to identify what cluster customers belong to based on their answers to 5 questions
+# the probability of them belonging to each cluster is provided.
 
 library(shiny)
 library(caret)
